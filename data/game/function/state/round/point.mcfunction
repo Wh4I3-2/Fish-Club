@@ -1,5 +1,5 @@
 data merge storage game:round {clockArgs:{args:{ objective: "point_timer", target: "@s", length: 100 }}}
-execute as @a run function utils:clock with storage game:round clockArgs
+execute as @a at @s if block ~ ~-3 ~ magenta_glazed_terracotta run function utils:clock with storage game:round clockArgs
 
 xp set @a 0 points
 execute as @a at @s unless block ~ ~-3 ~ magenta_glazed_terracotta run xp set @s 0 levels
