@@ -1,0 +1,1 @@
+function game:item/limit_item {args:{item:'cod[minecraft:enchantments={knockback:1},minecraft:custom_name={text:"Heavy Fish",italic:false},minecraft:custom_data={fish:"heavy_fish",kill:true}]',count:1,give:true}}

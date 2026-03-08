@@ -1,0 +1,2 @@
+function game:state/tick
+

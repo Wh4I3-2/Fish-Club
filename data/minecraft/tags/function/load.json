@@ -1,0 +1,9 @@
+{
+	"values": [
+		"math:load",
+		"utils:load",
+		"game:load",
+		"visuals:load",
+		"dev:load"
+	]
+}

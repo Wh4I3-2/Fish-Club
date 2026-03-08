@@ -1,0 +1,2 @@
+#Args: url: <string>, message: <string>, hover_message: str, target: <Entity>
+$tellraw $(target) {text:"$(message)",color:"blue",underlined:true,hover_event:{action:"show_text",value:{text:"$(hover_message)"}},click_event:{action:"open_url",url:"$(url)"}}

@@ -1,0 +1,8 @@
+{
+	"values": [
+		"visuals:tick",
+		"game:tick",
+		"dev:tick",
+		"utils:tick"
+	]
+}

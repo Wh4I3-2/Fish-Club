@@ -1,0 +1,1 @@
+damage @s 1000 out_of_world

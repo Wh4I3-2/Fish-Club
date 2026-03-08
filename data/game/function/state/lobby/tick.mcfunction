@@ -1,0 +1,1 @@
+function game:state/_common/tick { state:"lobby" }
