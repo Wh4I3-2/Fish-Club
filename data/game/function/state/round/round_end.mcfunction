@@ -14,4 +14,5 @@ kill @a[gamemode=survival]
 scoreboard players reset * kills
 gamerule showDeathMessages true
 
-title @a title "Round Ended"
+title @a[gamemode=adventure] title "Round Ended"
+title @a[gamemode=survival] title "Round Ended"
