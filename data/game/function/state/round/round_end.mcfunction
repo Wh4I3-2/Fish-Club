@@ -20,3 +20,5 @@ gamerule showDeathMessages true
 
 title @a[gamemode=adventure] title "Round Ended"
 title @a[gamemode=survival] title "Round Ended"
+
+kill @e[type=item]
