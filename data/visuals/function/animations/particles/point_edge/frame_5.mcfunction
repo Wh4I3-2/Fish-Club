@@ -1,1 +1,1 @@
-function visuals:animations/particles/point_edge/common
+function visuals:animations/particles/point_edge/common {blockstate:"oxidized_copper"}

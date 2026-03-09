@@ -1,1 +1,1 @@
-execute positioned ~ ~-5 ~ run function visuals:animations/particles/point_edge/common
+execute positioned ~ ~0.5 ~ run function visuals:animations/particles/point_edge/common {blockstate:"prismarine_bricks"}

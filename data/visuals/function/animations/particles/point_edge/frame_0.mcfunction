@@ -1,1 +1,1 @@
-execute positioned ~ ~-0.25 ~ run function visuals:animations/particles/point_edge/common
+execute positioned ~ ~-0.25 ~ run function visuals:animations/particles/point_edge/common {blockstate:"sculk"}
