@@ -32,6 +32,7 @@ execute as @a run function game:state/round/inventory
 kill @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{kill:true}}}}]
 
 function game:state/round/point
+function game:state/round/score
 
 execute as @a store result score @s fishes run clear @s emerald[custom_data={points:1}] 0
 
