@@ -2,10 +2,12 @@ function game:state/_common/tick { state:"round" }
 
 ### Args: args:{objective: <string>, target: <string> = "@s", tickLength: <int> = 1, length: <int>}
 data merge storage game:round {clockArgs:{args:{ objective: "game.data", target: ".time" }}}
-execute store result storage game:round clockArgs.args.length int 1 run scoreboard players get .round.length game.config
+execute store result storage game:round clockArgs.args.length int 20 run scoreboard players get .round.length game.config
 function utils:clock with storage game:round clockArgs
 
 execute store result score .time_left game.data run scoreboard players get .round.length game.config
+scoreboard players set .b math 20
+scoreboard players operation .time_left game.data *= .b math
 scoreboard players operation .time_left game.data -= .time game.data
 
 execute store result storage game:round timeLeft.time int 1 run scoreboard players get .time_left game.data
