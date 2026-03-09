@@ -1,6 +1,6 @@
 function game:gamerules
 
-setworldspawn 0 0 0
+#setworldspawn 0 0 0
 
 function game:scoreboards
 function game:teams
