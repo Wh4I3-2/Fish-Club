@@ -1,7 +1,7 @@
 tag @r[tag=!checked] add check
 
 tag @a[tag=check] add checked
-execute if score @a[tag=check,limit=1] kills > .highest_kills temp run scoreboard players operation .highest_kills temp = @a[tag=check,limit=1] kills 
+execute if score @a[tag=check,limit=1] points > .highest_points temp run scoreboard players operation .highest_points temp = @a[tag=check,limit=1] points 
 
 tag @a[tag=check] remove check
 

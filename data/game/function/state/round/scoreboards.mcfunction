@@ -22,3 +22,6 @@ scoreboard objectives add picked_up_point minecraft.picked_up:minecraft.emerald
 scoreboard objectives add died deathCount
 
 scoreboard objectives add owned_timer dummy
+
+scoreboard objectives add killed_by minecraft.killed_by:minecraft.player
+scoreboard objectives add killed minecraft.killed:minecraft.player

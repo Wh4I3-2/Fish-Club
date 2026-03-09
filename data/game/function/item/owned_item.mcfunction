@@ -1,2 +1,0 @@
-execute as @e[type=item,nbt={Item:{components:{"minecraft:custom_data":{owned:true}}}}] unless data entity @s Owner run data modify entity @s Owner set from entity @p UUID
-execute as @a[scores={died=0..}] run function game:item/owned_item/remove_on_death with entity @s

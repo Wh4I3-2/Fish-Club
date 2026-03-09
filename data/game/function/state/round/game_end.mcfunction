@@ -10,4 +10,4 @@ execute as @a if score @s wins >= .highest_wins temp run scoreboard players add 
 
 scoreboard players reset * kills
 scoreboard players reset * wins
-scoreboard players set .round game.data 0
+scoreboard players set .round game.data 1
