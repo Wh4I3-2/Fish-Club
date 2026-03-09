@@ -1,1 +1,1 @@
-execute as @e[type=item] if data entity @s Thrower if data entity @s Item.components."minecraft:custom_data".points run function game:state/round/score/args
+execute as @e[type=item] at @s if block ~ ~-3 ~ purple_glazed_terracotta if data entity @s Thrower if data entity @s Item.components."minecraft:custom_data".points run function game:state/round/score/args
