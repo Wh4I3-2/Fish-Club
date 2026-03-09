@@ -18,6 +18,7 @@ execute if score .round game.data > .rounds game.config run function game:state/
 function utils:format/timer/ticks with storage game:round timeLeft
 
 execute as @a run function game:state/round/actionbar
+execute run function game:item/owned_item
 
 data remove storage game:round clockArgs
 data remove storage game:round timeLeft
