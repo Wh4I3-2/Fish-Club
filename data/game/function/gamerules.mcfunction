@@ -22,3 +22,5 @@ gamerule doDaylightCycle false
 gamerule doWeatherCycle false
 
 gamerule locatorBar false
+
+gamerule fallDamage false
