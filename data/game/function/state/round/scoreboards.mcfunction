@@ -18,7 +18,6 @@ scoreboard players reset * point_timer
 
 scoreboard objectives add points dummy
 scoreboard objectives add fishes dummy
-scoreboard objectives add picked_up_point minecraft.picked_up:minecraft.emerald
 scoreboard objectives add died deathCount
 
 scoreboard objectives add owned_timer dummy

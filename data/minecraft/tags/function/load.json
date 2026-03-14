@@ -2,6 +2,7 @@
 	"values": [
 		"math:load",
 		"utils:load",
+		"item:load",
 		"game:load",
 		"visuals:load",
 		"dev:load"

@@ -1,6 +1,7 @@
 {
 	"values": [
 		"visuals:tick",
+		"item:tick",
 		"game:tick",
 		"dev:tick",
 		"utils:tick"
