@@ -20,7 +20,7 @@ execute if score .round game.data > .rounds game.config run function game:state/
 function utils:format/timer/ticks with storage game:round timeLeft
 
 execute as @a run function game:state/round/actionbar
-#execute as @a at @s if block ~ ~-2 ~ redstone_block run function game:state/round/kill
+execute as @a at @s if block ~ ~-3 ~ purple_glazed_terracotta run function game:state/round/kill
 
 data remove storage game:round clockArgs
 data remove storage game:round timeLeft
