@@ -14,3 +14,5 @@ data modify storage item:help function.value append value { text: " - ", color: 
 $data modify storage item:help function.value append value "$(description)"
 
 function item:z_/help/tellraw with storage item:help function
+
+data remove storage item:help function

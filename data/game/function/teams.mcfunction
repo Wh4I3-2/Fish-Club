@@ -1,12 +1,14 @@
-team add cod "Cod"
-team add salmons "Salmons"
-team add puffies "Puffies"
-team add clowns "Clowns"
-team add whales "Whales"
-team add turts "Turts"
-team add jellies "Jellies"
-team add salmons "Salmons"
-team add salmons "Salmons"
-team add salmons "Salmons"
-team add salmons "Salmons"
-team add salmons "Salmons"
+data modify storage game:teams list set value []
+
+function game:teams/create { id: "cod",      name: "Cod",      color: "gray",         texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzg5MmQ3ZGQ2YWFkZjM1Zjg2ZGEyN2ZiNjNkYTRlZGRhMjExZGY5NmQyODI5ZjY5MTQ2MmE0ZmIxY2FiMCJ9fX0=" }
+function game:teams/create { id: "salmon",   name: "Salmon",   color: "dark_red",     texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTMwZGU5MTQwOTY4NWZjZmU2OWM5Mzk3YmZkNzFmYWY0ZTBjY2ZlYTBiMTk1NDAyZjEzNGY1OTUyN2MwMjM4NCJ9fX0=" }
+function game:teams/create { id: "puffies",  name: "Puffies",  color: "yellow",       texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNmRmOGMzMTY5NjI5NDliYTNiZTQ0NWM5NGViZjcxNDEwODI1MmQ0NjQ1OWI2NjExMGY0YmMxNGUwZTFiNTlkYyJ9fX0=" }
+function game:teams/create { id: "clowns",   name: "Clowns",   color: "gold",         texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMTI1MTBiMzAxYjA4ODYzOGVjNWM4NzQ3ZTJkNzU0NDE4Y2I3NDdhNWNlNzAyMmM5YzcxMmVjYmRjNWY2ZjA2NSJ9fX0=" }
+function game:teams/create { id: "whales",   name: "Whales",   color: "aqua",         texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzNhYTcxNjc2ZTgxZmI1M2EwNDBkZmRjYTNlNWI0N2Q1M2U2ZWZkNjY1ZTY5ZmI0Mzk3NzhlOGM0ZWZiMWNjIn19fQ==" }
+function game:teams/create { id: "turts",    name: "Turts",    color: "green",        texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNzYxY2QzZTVmN2E5YmI1OGEwZWQyNGRmOTRlMjc1MTNlYTYxYzdhNDFmMzNlMDE4MGFkOWM4NWY1MzI3ZjdjNSJ9fX0=" }
+function game:teams/create { id: "jellies",  name: "Jellies",  color: "dark_purple",  texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvZmI2NTZiYWM2NGFkYTY0ZmEyMjFlOWY0OGZiZjhhYjkzMzRiNzkzNGVmYjk3OWQ3NThkZjRkMGMxYmQxNzY5NSJ9fX0=" }
+function game:teams/create { id: "squids",   name: "Squids",   color: "dark_blue",    texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNDY0YmRjNmY2MDA2NTY1MTFiZWY1OTZjMWExNmFhYjFkM2Y1ZGJhYWU4YmVlMTlkNWMwNGRlMGRiMjFjZTkyYyJ9fX0=" }
+function game:teams/create { id: "axolotls", name: "Axolotls", color: "light_purple", texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvNWMxMzhmNDAxYzY3ZmMyZTFlMzg3ZDljOTBhOTY5MTc3MmVlNDg2ZThkZGJmMmVkMzc1ZmM4MzQ4NzQ2ZjkzNiJ9fX0=" }
+function game:teams/create { id: "frogs",    name: "Frogs",    color: "dark_green",   texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMjdiY2NjYzEyNWE0MTEwNDM0YTg1YzQwYWRhMDM5ZDA1MGYxNGVmN2RiMzRhMzQ0NDA2NzMxMGY4Y2U2OTYwNiJ9fX0=" }
+function game:teams/create { id: "shrimp",   name: "Shrimp",   color: "red",          texture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYTc1M2IyMTVkMmE0ZDE0MDUzMjIwMTcxM2ZlMDg3OWZkNDVjMDE4NGY4ZDMwN2Q1NGIzMWMwNGIyMWZjNmZlZCJ9fX0=" }
+function game:teams/create { id: "guards",   name: "Guards",   color: "dark_aqua",    texture: "ewogICJ0aW1lc3RhbXAiIDogMTc3NDE5NzEzMzczOSwKICAicHJvZmlsZUlkIiA6ICJmNGMyY2FkNzBhY2U0Y2U2ODY3ODY5ZDBiNjUzYTk4YiIsCiAgInByb2ZpbGVOYW1lIiA6ICJHdWFyZGlhbiIsCiAgInRleHR1cmVzIiA6IHsKICAgICJTS0lOIiA6IHsKICAgICAgInVybCIgOiAiaHR0cDovL3RleHR1cmVzLm1pbmVjcmFmdC5uZXQvdGV4dHVyZS8xYzVmYjBkNTljNmUzZjNjNzEyYTE3ZGIxYzRkNmRlZjgwZWJkOTg5MzU3MTQ3NjkxNzBiMTYwNmMzZDkwNDNiIgogICAgfQogIH0KfQ==" }

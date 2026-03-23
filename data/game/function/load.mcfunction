@@ -9,3 +9,4 @@ function game:teams
 data merge storage game:data { prevState:"" }
 
 function game:items/register
+execute as @e[type=mannequin] run function game:teams/randomize

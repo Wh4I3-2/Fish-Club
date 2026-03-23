@@ -10,3 +10,5 @@ data modify storage item:args give.item set from storage item:result value.item
 execute unless data storage item:result value run data modify storage item:args give.item set from storage item:args give.id
 
 function item:z_/give with storage item:args give
+
+data remove storage item:args give

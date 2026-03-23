@@ -16,4 +16,5 @@ function utils:strings/concat with storage game:round actionbar
 
 title @s actionbar {nbt:"actionbar.args.a",storage:"game:round",interpret:true}
 
+data remove storage utils:format/timer output
 data remove storage game:round actionbar

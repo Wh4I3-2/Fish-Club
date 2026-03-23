@@ -22,9 +22,6 @@ function utils:format/timer/ticks with storage game:round timeLeft
 execute as @a run function game:state/round/actionbar
 execute as @a at @s if block ~ ~-3 ~ purple_glazed_terracotta run function game:state/round/kill
 
-data remove storage game:round clockArgs
-data remove storage game:round timeLeft
-
 effect give @a minecraft:saturation 20 0 true
 effect give @a minecraft:instant_health 20 0 true
 
@@ -38,6 +35,9 @@ function game:state/round/score
 
 function game:state/round/kill_credit
 
-execute as @a store result score @s fishes run clear @s emerald[custom_data={points:1}] 0
+execute as @a at @s run function game:state/round/held_fish
 
 function game:state/round/events
+
+data remove storage game:round clockArgs
+data remove storage game:round timeLeft

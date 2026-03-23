@@ -8,3 +8,5 @@ execute unless data storage utils:clock args.tickLength run data merge storage u
 
 execute if data storage utils:clock {args:{tickLength:1}} run function utils:clock/simple_clock with storage utils:clock args
 execute unless data storage utils:clock {args:{tickLength:1}} run function utils:clock/advanced_clock with storage utils:clock args
+
+data remove storage utils:clock args
